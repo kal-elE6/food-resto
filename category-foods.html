@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
+    <title>Restaurant Website</title>
 
+    <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!-- Navbar starts here -->
+    <!-- Navbar Section Starts Here -->
     <section class="navbar">
         <div class="container">
             <div class="logo">
-                <img src="images/logo.png" alt="Logo" class="img-responsive">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
             </div>
+
             <div class="menu text-right">
                 <ul>
                     <li>
@@ -24,55 +29,30 @@
                         <a href="categories.html">Categories</a>
                     </li>
                     <li>
-                        <a href="foods.html">Menu</a>
+                        <a href="foods.html">Foods</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
+
             <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Navbar end here -->
+    <!-- Navbar Section Ends Here -->
 
-    <!-- Search starts here -->
+    <!-- fOOD sEARCH Section Starts Here -->
     <section class="food-search text-center">
         <div class="container">
-            <form action="food-search.html" method="POST">
-                <input type="search" name="search" id="" placeholder="search for food ...">
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
-            </form>
-        </div>
-    </section>
-    <!-- Search end here -->
+            
+            <h2>Foods on <a href="#" class="text-white">"Category"</a></h2>
 
-    <!-- Categories starts here -->
-    <section class="categories">
-        <div class="container">
-            <h2 class="text-center">Categories</h2>
-            <a href="category-foods.html">
-            <div class="box-3 float-container">
-                <img src="images/food.jpg" alt="ramen" class="img-responsive img-curved">
-                <h3 class="float-text text-white">Ramen</h3>
-            </div>
-            </a>
-            <a href="#">
-            <div class="box-3 float-container">
-                <img src="images/side.jpg" alt="sidedish" class="img-responsive img-curved">
-                <h3 class="float-text text-white">Sides</h3>
-            </div>
-        </a>
-        <a href="#">
-            <div class="box-3 float-container">
-                <img src="images/drink.jpg" alt="sidedish" class="img-responsive img-curved">
-                <h3 class="float-text text-white">Drink</h3>
-            </div>
-        </a>
-            <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Categories end here -->
+    <!-- fOOD sEARCH Section Ends Here -->
+
+
 
     <!-- Menu starts here -->
     <section class="food-menu">
@@ -81,7 +61,7 @@
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/shoyo-ramen.jpeg" alt="ramen" class="img-responsive img-curved">
+                    <img src="/images/shoyo-ramen.jpeg" alt="ramen" class="img-responsive img-curved">
                 </div>
                 <div class="food-menu-desc">
                     <h4>Shoyo Ramen</h4>
@@ -96,7 +76,7 @@
             </div>
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/sprite.png" alt="ramen" class="img-responsive img-curved">
+                    <img src="/images/sprite.png" alt="ramen" class="img-responsive img-curved">
                 </div>
                 <div class="food-menu-desc">
                     <h4>Sprite Soda</h4>
@@ -111,7 +91,7 @@
             </div>
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/caliroll.jpeg" alt="ramen" class="img-responsive img-curved">
+                    <img src="/images/caliroll.jpeg" alt="ramen" class="img-responsive img-curved">
                 </div>
                 <div class="food-menu-desc">
                     <h4>California Roll</h4>
@@ -126,7 +106,7 @@
             </div>
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/bari.jpeg" alt="ramen" class="img-responsive img-curved">
+                    <img src="/images/bari.jpeg" alt="ramen" class="img-responsive img-curved">
                 </div>
                 <div class="food-menu-desc">
                     <h4>Barikara Ramen</h4>
@@ -141,7 +121,7 @@
             </div>
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/chik.jpeg" alt="ramen" class="img-responsive img-curved">
+                    <img src="/images/chik.jpeg" alt="ramen" class="img-responsive img-curved">
                 </div>
                 <div class="food-menu-desc">
                     <h4>Chicken Karage</h4>
@@ -156,7 +136,7 @@
             </div>
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/aka.jpeg" alt="ramen" class="img-responsive img-curved">
+                    <img src="/images/aka.jpeg" alt="ramen" class="img-responsive img-curved">
                 </div>
                 <div class="food-menu-desc">
                     <h4>Aka Ramen</h4>
@@ -179,12 +159,12 @@
     </section>
     <!-- Menu end here -->
 
-    <!-- Social-icons starts here -->
+    <!-- social Section Starts Here -->
     <section class="social">
         <div class="container text-center">
             <ul>
                 <li>
-                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
                 </li>
                 <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
@@ -195,7 +175,7 @@
             </ul>
         </div>
     </section>
-    <!-- Social-icons end here -->
+    <!-- social Section Ends Here -->
 
     <!-- Footer starts here -->
     <section class="footer">
@@ -204,6 +184,6 @@
         </div>
     </section>
     <!-- Footer end here -->
-    
+
 </body>
 </html>
